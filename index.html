@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dilip Kumar Jakhar</title>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./favicon//apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/manifest.json" />
+
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  </head>
+  <body onload="myfunction()">
+    <div id="loader"></div>
+    <!-- navbar section starts  -->
+
+    <nav class="navbar" id="navs" style="display: none">
+      <a href="home.html"> <i class="fas fa-home"></i> <span>home</span> </a>
+      <a href="about.html"> <i class="fas fa-user"></i> <span>about</span> </a>
+      <a href="portfolio.html">
+        <i class="fas fa-briefcase"></i> <span>portfolio</span>
+      </a>
+      <a href="skills.html">
+        <i class="far fa-lightbulb"></i> <span>Skills</span>
+      </a>
+      <a href="contact.html">
+        <i class="fas fa-address-book"></i> <span>contact</span>
+      </a>
+    </nav>
+
+    <!-- navbar section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="hom" style="display: none">
+      <div class="image">
+        <img src="./images/new6.png" alt="" />
+        <!-- <img src="./images/Untitled design.png" alt=""> -->
+      </div>
+
+      <div class="content">
+        <p
+          id="dilip-name"
+          style="text-shadow: -0.5px -0.5px 4.5px rgb(92, 92, 92)"
+        >
+          Hello,i'm
+          <br />
+          Dilip Kumar Jakhar
+        </p>
+        <br />
+        <span>
+          <h3
+            style="
+              display: inline;
+              color: #ffffff;
+              font-size: 3rem;
+              text-shadow: -0.5px -0.5px 4.5px #000000;
+            "
+          >
+            i'm
+          </h3>
+          <i class="fas fa-spinner rotate"></i>
+          <strong
+            style="
+              color: #ffffff;
+              font-size: auto;
+              text-shadow: -0.5px -0.5px 4.5px #000000;
+            "
+            class="auto-input"
+          >
+            full Stack Web Developer
+          </strong>
+
+          <!-- <i class="fas fa-marker rotate1"></i> -->
+
+          <!-- <i class="fas fa-dove rotate6"></i> -->
+          <i class="fas fa-laptop-code rotate2"></i>
+
+          <!-- <i class="fab fa-angellist rotate3"></i> -->
+          <i class="fas fa-user-secret rotate4"></i>
+
+          <!-- <i class="fas fa-mug-hot rotate5"></i> -->
+          <!-- <i class="far fa-lightbulb rotate6"></i> -->
+          <!-- <i class="fas fa-bullhorn rotate6"></i> -->
+        </span>
+
+        <p>I Love to Create New Thing's</p>
+        <a href="contact.html" class="btn">
+          Hire Me
+          <i style="color: rgb(75, 5, 188)" class="far fa-paper-plane"></i>
+        </a>
+        <a href="portfolio.html" class="btn">
+          My Works<i style="color: rgb(75, 5, 188)" class="fas fa-laptop"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+  </body>
+</html>
+<script>
+  let typed = new Typed('.auto-input', {
+    strings: [
+      '-',
+      '',
+      'Web designer',
+      'FrontEnd Developer',
+      'BackEnd Developer',
+    ],
+    typeSpeed: 100,
+    backSpeed: 110,
+    loop: true,
+  });
+  let nav = document.getElementById('navs');
+  let ho = document.getElementById('hom');
+
+  function myfunction() {
+    let loaders = document.getElementById('loader');
+
+    loaders.style.height = '0px';
+    loaders.style.width = '0px';
+    nav.style.display = 'flex';
+    ho.style.display = 'flex';
+  }
+</script>
